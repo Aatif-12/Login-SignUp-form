@@ -15,32 +15,26 @@ Follow these steps to set up and run the project:
 
 If you have not already cloned the repository, run the following command:
 
-```bash
 git clone <repository-url>
 2. Navigate to the project directory
-bash
-Copy code
 cd formik-auth-app
 3. Install dependencies
 Run the following command to install the required dependencies:
 
-bash
-Copy code
 npm install
 This will install Formik, Yup, React Router, and other dependencies needed for the application.
 
 4. Start the development server
 After installing the dependencies, start the development server with:
 
-bash
-Copy code
 npm start
 This will start the application on http://localhost:3000 by default.
 
 5. Access the app
 Login Page: http://localhost:3000/login
 Signup Page: http://localhost:3000/signup
-The Design Choices Made
+
+### The Design Choices Made
 1. Formik for Form Handling
 Formik is used to manage form state, handle form submission, and integrate validation. It provides an easy-to-use API for building controlled forms.
 
@@ -56,7 +50,8 @@ The "Remember Me" checkbox in the login form is used to simulate persistent logi
 5. Component-Based Architecture
 The app is designed with reusable components: Login and Signup components for the respective forms.
 
-Assumptions and Limitations
+### Assumptions and Limitations
+
 1. Assumptions
 Basic Authentication: This app does not include real authentication (e.g., backend integration, API calls). It only simulates the login and signup process with alert messages for success.
 No User Persistence: Since this is a front-end simulation, no actual user data is saved on a server or database.
@@ -89,9 +84,6 @@ Conclusion
 This project demonstrates how to build a simple login and signup form with Formik, Yup, and React Router in a React app using TypeScript. The app includes basic form validation, the "Remember Me" feature, and navigation between login and signup pages.
 
 For a production app, you should integrate backend authentication, improve user experience (e.g., form reset on success), and secure sensitive data like passwords.
-
-vbnet
-Copy code
 
 This is the updated README file with the explanations to help users understand how to run the project, the design choices made, and the assumptions/limitations of the project. You can copy and replace your current `README.md` content with this.
 
